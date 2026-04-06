@@ -1,0 +1,105 @@
+        
+        header {
+            background-color: #0077ff;
+            position: fixed;
+            
+            width: 120%;
+            top: 0;
+            color: rgb(255, 255, 255);
+            padding: 20px 0;
+            
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            
+            
+            
+        }
+
+        nav {
+            margin-top: -60px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+           
+            margin: 0 70px;
+            font-size: 3.2em;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #000000;
+        }
+
+        .logo {
+            font-size: 3.5em;
+            font-weight: bold;
+            color: #ffffff;
+            margin-right: 2000px;
+        }
+
+        
+        @media (max-width: 600px) {
+            nav a {
+                margin: 0 10px;
+                font-size: 1em;
+            }
+        }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: auto;
+        }
+        
+        h1 {
+            margin-top: 200px;
+            color: #333;
+            font-size: 70px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+        
+        input[type=range], input[type=number] {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+       
+        
+        .color-sample {
+            width: 600px;
+            height: 300px;
+            border-radius: 10px;
+            margin: 20px auto;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .top {
+            border-radius: 5px;
+            height: 50px;
+            font-size: 40px;
+        }
+
+        p {
+            margin-top: 10px;
+            font-size:20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 220px;
+            background-color: #007BFF;
+            color: white;
+            position: relative;
+            border: 0;
+            
+            
+        }
